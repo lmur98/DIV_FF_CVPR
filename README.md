@@ -46,7 +46,11 @@ Running the following command, you can obtain the scene metrics for the dynamic 
 sh scripts/eval.sh rel P01_01 rel 'object_segmentation' 0 0
 sh scripts/eval.sh rel P01_01 rel 'action_segmentation' 0 0
 ```
+
+Dynamic Object Segmentation
 ![Dynamic Object Segmentation (using CLIP features)](dyn.png)
+
+Affordance Segmentation
 ![Affordance Segmentation (using EgoVideo features)](aff_qualit.png)
 
 Or if desired, you want to use the paper OWL or OOAL baselines results, just run:
