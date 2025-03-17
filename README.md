@@ -1,6 +1,7 @@
 # Dynamic Image-Video Feature Fields (DIV-FF)
 
 ## ✨✨ Accepted in CVPR 2025!! ✨✨
+[🎥 Ver video](P04_01.mp4)
 
 ## Dataset
 Descargar dataset de https://drive.google.com/file/d/1_FkZ1tXdW3JdTbEeiD-p4jOL1qvvKH46/view?usp=sharing y copiar la carpeta data al directorio donde tengas el repositorio descargado
