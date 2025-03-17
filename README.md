@@ -34,9 +34,11 @@ For instance, to evaluate the scene with Video ID `P01_01`, use the following co
 sh scripts/eval.sh rel P01_01 rel 'masks' 0 0
 ```
 The las two arguments represent the number of frames to use in the evaluation. 0 means that we use every frame. The results are saved in `results/rel`.
-You can modify in the sh the desired text queries to obtain the relevancy maps. By default, the relevancy maps are obtained with the distilled CLIP feature map.
+You can modify in the sh the desired text queries to obtain the relevancy maps. 
 
-Add in eval.sh the arg --positive_queries with the queries you want to render (e.g. --positive_queries "human arms","cooking")
+**Important!!** When the flag --video_active is True, the relevancy maps are obtained from the distilled EgoVideo feats. Otherwise, the CLIP features are used.
+
+**Important!!** Add in eval.sh the arg --positive_queries with the queries you want to render (e.g. --positive_queries "human arms","cooking")
 
 
 ## Full scene metrics
