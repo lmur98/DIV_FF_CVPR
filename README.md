@@ -17,7 +17,7 @@ mkdir data
 mv EPIC-Diff.tar.gz data
 cd data
 tar -xzvf EPIC-Diff.tar.gz
-
+'''
 
 ## Training
 
