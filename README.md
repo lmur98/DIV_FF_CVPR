@@ -36,7 +36,7 @@ sh scripts/eval.sh rel P01_01 rel 'masks' 0 0
 The las two arguments represent the number of frames to use in the evaluation. 0 means that we use every frame. The results are saved in `results/rel`.
 You can modify in the sh the desired text queries to obtain the relevancy maps. By default, the relevancy maps are obtained with the distilled CLIP feature map.
 
-Add in eval.sh the arg --positive_queries with the quueries you want to render (e.g. --positive_queries "human arms","cooking")
+Add in eval.sh the arg --positive_queries with the queries you want to render (e.g. --positive_queries "human arms","cooking")
 
 
 ## Full scene metrics
@@ -46,6 +46,8 @@ Running the following command, you can obtain the scene metrics for the dynamic 
 sh scripts/eval.sh rel P01_01 rel 'object_segmentation' 0 0
 sh scripts/eval.sh rel P01_01 rel 'action_segmentation' 0 0
 ```
+![Dynamic Object Segmentation (using CLIP features)](dyn.png)
+![Affordance Segmentation (using EgoVideo features)](aff_qualit.png)
 
 Or if desired, you want to use the paper OWL or OOAL baselines results, just run:
 ```
