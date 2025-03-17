@@ -3,8 +3,21 @@
 ## ✨✨ Accepted in CVPR 2025!! ✨✨
 ![🎥 Ver video](P13_03-_online-video-cutter.com_.gif)
 
+## About
+This repository contains the official implementation of the paper *Dynamic Image-Video Feature Fields (DIV-FF)*, Published at CVPR 2021
+
+Environment understanding in egocentric videos is an important step for applications like robotics, augmented reality and assistive technologies. These videos are characterized by dynamic interactions and a strong dependence on the wearer engagement with the environment. Traditional approaches often focus on isolated clips or fail to integrate rich semantic and geometric information, limiting scene comprehension. We introduce Dynamic Image-Video Feature Fields (DIV-FF), a framework that decomposes the egocentric scene into persistent, dynamic, and actor-based components while integrating both image and video-language features. Our model enables detailed segmentation, captures affordances, understands the surroundings and maintains consistent understanding over time. DIV-FF outperforms state-of-the-art methods, particularly in dynamically evolving scenarios, demonstrating its potential to advance long-term, spatio-temporal scene understanding.
+
 ## Dataset
-Descargar dataset de https://drive.google.com/file/d/1_FkZ1tXdW3JdTbEeiD-p4jOL1qvvKH46/view?usp=sharing y copiar la carpeta data al directorio donde tengas el repositorio descargado
+
+Download EPIC-Diff from the [original repository](https://www.robots.ox.ac.uk/~vadim/neuraldiff/release/EPIC-Diff-annotations.tar.gz). 
+After downloading, move the compressed dataset to the directory of the cloned repository (e.g. NeuralDiff). Then, apply following commands:
+```bash
+mkdir data
+mv EPIC-Diff.tar.gz data
+cd data
+tar -xzvf EPIC-Diff.tar.gz
+
 
 ## Training
 
