@@ -1,0 +1,7 @@
+__pycache__/
+data/
+ckpts/
+outputs/
+results/
+wandb/
+tiny-cuda-nn/

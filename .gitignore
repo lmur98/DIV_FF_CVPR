@@ -4,3 +4,4 @@ outputs/
 results/
 wandb/
 tiny-cuda-nn/
+sam_vit_h_4b8939.pth
