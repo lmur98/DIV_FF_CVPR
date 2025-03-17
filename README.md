@@ -17,7 +17,8 @@ mkdir data
 mv EPIC-Diff.tar.gz data
 cd data
 tar -xzvf EPIC-Diff.tar.gz
-'''
+
+The RGB frames are hosted separately as a subset from the [EPIC-Kitchens](https://epic-kitchens.github.io/2022) dataset. The data are available at the University of Bristol [data_repository](https://doi.org/10.5523/bris.296c4vv03j7lb2ejq3874ej3vm), data.bris. Once downloaded, move the folders into the same directory as mentioned before (data/EPIC-Diff).
 
 ## Training
 
