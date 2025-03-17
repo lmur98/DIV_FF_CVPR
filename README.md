@@ -5,6 +5,7 @@
 
 ## About
 This repository contains the official implementation of the paper *Dynamic Image-Video Feature Fields (DIV-FF)* by [Lorenzo Mur-Labadia](https://sites.google.com/unizar.es/lorenzo-mur-labadia/inicio), [Josechu Guerrero](http://webdiis.unizar.es/~jguerrer/), [Ruben Martinez-Cantin](https://webdiis.unizar.es/~rmcantin/), Published at CVPR 2025. 
+
 💻💻[Official webpage](https://lmur98.github.io/DIV_FF_webpage/)💻💻    📃📃 [Paper](https://arxiv.org/pdf/2503.08344)📃📃
 
 Environment understanding in egocentric videos is an important step for applications like robotics, augmented reality and assistive technologies. These videos are characterized by dynamic interactions and a strong dependence on the wearer engagement with the environment. Traditional approaches often focus on isolated clips or fail to integrate rich semantic and geometric information, limiting scene comprehension. We introduce Dynamic Image-Video Feature Fields (DIV-FF), a framework that decomposes the egocentric scene into persistent, dynamic, and actor-based components while integrating both image and video-language features. Our model enables detailed segmentation, captures affordances, understands the surroundings and maintains consistent understanding over time. DIV-FF outperforms state-of-the-art methods, particularly in dynamically evolving scenarios, demonstrating its potential to advance long-term, spatio-temporal scene understanding.
