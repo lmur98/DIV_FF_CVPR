@@ -49,6 +49,10 @@ Running the following command, you can obtain the scene metrics for the dynamic 
 sh scripts/eval.sh rel P01_01 rel 'object_segmentation' 0 0
 sh scripts/eval.sh rel P01_01 rel 'action_segmentation' 0 0
 ```
+You can download here the set of annotated objects (the same as in N3F) [OBJECT MASKS N3F](https://drive.google.com/file/d/1UUt6MBlCBu_i4uei3D34IGEvd8HUrYvH/view?usp=sharing)
+We also provide the affordance masks [AFFORDANCE MASKS](https://drive.google.com/file/d/1QdN5KK1DpRoJqrkS-DR413vxZUmUCuBF/view?usp=sharing)
+
+
 
 Dynamic Object Segmentation
 ![Dynamic Object Segmentation (using CLIP features)](dyn.png)
