@@ -50,6 +50,7 @@ sh scripts/eval.sh rel P01_01 rel 'object_segmentation' 0 0
 sh scripts/eval.sh rel P01_01 rel 'action_segmentation' 0 0
 ```
 You can download here the set of annotated objects (the same as in N3F) [OBJECT MASKS N3F](https://drive.google.com/file/d/1UUt6MBlCBu_i4uei3D34IGEvd8HUrYvH/view?usp=sharing)
+
 We also provide the affordance masks [AFFORDANCE MASKS](https://drive.google.com/file/d/1QdN5KK1DpRoJqrkS-DR413vxZUmUCuBF/view?usp=sharing)
 
 
@@ -91,6 +92,8 @@ sh scripts/train_clip.sh P01_01
 ```
 and you have to indicate with --ckpt_path_pretrained the geometry version to start training.
 We recomend this 2 stage training for convergence. You can also train from scratch the geometry+semantics, but the results are worse.
+
+❗️❗️❗️ Important ❗️❗️❗️ Before training the geometry, you need to pre-extract the semantic features by running SAM_feat_extr.py. Then, run autoencoder/run_scripts.sh for training a per-scene autoencoder. This procedure is similar as [LangSplat](https://github.com/minghanqin/LangSplat)
 
 ## Contact
 If you have further questions, please contact me [personal email](lmur@unizar.es)
